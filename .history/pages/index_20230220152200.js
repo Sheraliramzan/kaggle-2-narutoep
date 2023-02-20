@@ -45,13 +45,13 @@ export default function FormPage() {
           </div>
 
           <div className="mb-4">
-            <label className="block font-bold mb-2 text-white" htmlFor="password">Password:</label>
+            <label className="block font-bold mb-2 text" htmlFor="password">Password:</label>
             <input className="border rounded w-full py-2 px-3" type="password" id="password" {...register('password', { required: true, minLength: 8 })} />
             {errors.password && <span className="text-red-500">Please enter a password with at least 8 characters</span>}
           </div>
 
           <div className="mt-6">
-            <button className="bg-red-700 text-white py-2 px-4 rounded hover:bg-black" type="submit">Submit</button>
+            <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600" type="submit">Submit</button>
           </div>
         </form>
       </div>

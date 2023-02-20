@@ -51,7 +51,7 @@ export default function FormPage() {
           </div>
 
           <div className="mt-6">
-            <button className="bg-red-700 text-white py-2 px-4 rounded hover:bg-black" type="submit">Submit</button>
+            <button className="bg-red-700 text-white py-2 px-4 rounded hover:bg-black-700" type="submit">Submit</button>
           </div>
         </form>
       </div>
