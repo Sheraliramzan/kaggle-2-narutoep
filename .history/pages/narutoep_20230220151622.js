@@ -21,7 +21,7 @@ export default function Home() {
       <main>
         <div className={`w-full h-full bg-cover bg-fixed bg-no-repeat bg-center bg-[url('/back.webp')] ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
           <div>
-            <h1 className={`text-center text-7xl text-red-700 mb-5 text-red-800 font-extrabold ${isLoaded ? 'animate-bounce' : ''}`}>Naruto Ep Kaggle</h1>
+            <h1 className={`text-center text-7xl text-r mb-5 text-red-800 font-extrabold ${isLoaded ? 'animate-bounce' : ''}`}>Naruto Ep Kaggle</h1>
           </div>
           <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ${isLoaded ? 'animate-fade-in-up' : ''}`}>
             {shows.map((show, index) => {
